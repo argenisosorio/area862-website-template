@@ -53,6 +53,12 @@
     background-color: rgb(57, 93, 163) !important;
 }
 
+.navbar {
+    -webkit-box-shadow: -1px 0px 9px 3px #EB9916;
+    -moz-box-shadow: -1px 0px 15px 3px #EB9916;
+    box-shadow: -1px 0px 9px 3px #EB9916;
+}
+
 .nav-link {
     color: #FFFFFF !important;
 }
@@ -60,4 +66,8 @@
 .navbar-toggler {
     color: #FFFFFF !important;
     background-color: #EB9916 !important;
+}
+
+.navbar-text {
+    color: rgb(235, 152, 20) !important;
 }
