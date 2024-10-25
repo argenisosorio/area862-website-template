@@ -19,7 +19,7 @@
                 <img
                     src="assets/img/favicon.png"
                     alt=""
-                    width="70"
+                    width="100"
                     class="d-inline-block align-text-top img-zoom"
                 >
             </a>
@@ -32,9 +32,18 @@
                         <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">POLÍTICA DE PRIVACIDAD</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!--li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             DROPDOWN
                         </a>
@@ -44,7 +53,7 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </li>
+                    </li-->
                 </ul>
                 <span class="navbar-text fs-5 text">
                     <a class="nav-link" href="#">
@@ -59,37 +68,112 @@
 
     <main>
         <section class="py-5 container-fluid background-gradient">
-            <div class="row py-lg-5">
-                <div class="col-lg-8 mx-auto">
-                    <video controls width="500" autoplay muted loop>
-                        <source src="assets/video/video.mp4" type="video/mp4">
-                        <p>Sorry, Your Browser Doesn't Support Embedded Videos.</p>
-                    </video>
-                    <p class="text-center text-light" style="font-size: 3.5rem !important;">
-                        Damos las mejores impresiones
-                    </p>
-                    <p class="text-center fs-3 text-light">
-                        Ahorre tiempo y dinero. Tenemos tu impresión 
-                        <br>
-                        y diseño para tu empresa.
-                    </p>
+            <div class="py-lg-3">
+                <div class="row text-center mt-5">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <p class="text-center text-light text-grad" style="font-size: 4.0rem !important;">
+                            Damos las mejores impresiones
+                        </p>
+                        <p class="text-center fs-3 text-light">
+                            Ahorre tiempo y dinero. Tenemos tu impresión
+                            y diseño para tu empresa.
+                        </p>
+                        <button
+                            type="button"
+                            class="btn btn-secondary btn-blue btn-grad"
+                        >
+                            Saber más
+                        </button>
+                    </div>
+                    <div class="col-4">
+                        <img
+                            src="assets/img/image-1.jpg"
+                            alt=""
+                            width="80%"
+                            class="d-inline-block align-text-top img-zoom"
+                            style="
+                                border-radius: 25px;
+                                box-shadow: 3px 3px 3px #395da3;
+                            "
+                        >
+                    </div>
+                    <div class="col-2"></div>
                 </div>
             </div>
         </section>
 
         <section class="py-5 container-fluid background-gray">
             <div class="row py-lg-5">
-                <div class="col-lg-8 mx-auto">
-                    <p class="fs-5">
-                        Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.
-                        Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.
-                    </p>
+                <div class="row text-center">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <div
+                            id="carouselExampleFade"
+                            class="carousel slide carousel-fade"
+                            data-bs-ride="carousel"
+                        >
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/carousel/1.png" class="d-block w-30" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/carousel/2.png" class="d-block w-30" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/carousel/1.png" class="d-block w-30" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h1 style="color: #395da3;">
+                            <b>Nuestros Productos</b>
+                        </h1>
+                        <br>
+                        <p class="fs-4 text-justify">
+                            En Area 862 Graphics, nos enorgullece ofrecer productos de la más alta calidad a precios inigualables. Nos aseguramos de que cada impresión y diseño cumpla con los más altos estándares, brindando a nuestros clientes soluciones gráficas eficientes y accesibles. Ahorre tiempo y dinero con nosotros, sin sacrificar la excelencia.
+                        </p>
+                    </div>
+                    <div class="col-2"></div>
                 </div>
             </div>
         </section>
 
         <section class="py-5 container-fluid">
             <div class="row py-lg-5">
+                <div class="row text-center">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <h1 style="color: #395da3;">
+                            <b>Nuestros Servicios</b>
+                        </h1>
+                        <br>
+                        <p class="fs-4 text-justify">
+                            En Area 862 Graphics, nos enorgullece ofrecer productos de la más alta calidad a precios inigualables. Nos aseguramos de que cada impresión y diseño cumpla con los más altos estándares, brindando a nuestros clientes soluciones gráficas eficientes y accesibles. Ahorre tiempo y dinero con nosotros, sin sacrificar la excelencia.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <video controls width="100%" autoplay muted loop>
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                            <p>Sorry, Your Browser Doesn't Support Embedded Videos.</p>
+                        </video>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--section class="py-5 container-fluid">
+            <div class="row py-lg-5">
                 <div class="col-lg-8 mx-auto">
                     <p class="fs-5">
                         Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.
@@ -97,24 +181,31 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section-->
 
         <section class="py-5 container-fluid background-gray">
             <div class="row py-lg-5">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1>Política de Privacidad</h1>
+                    <h1 style="color: #395da3;">
+                        <b>Política de Privacidad</b>
+                    </h1>
                     <br>
                     <p class="fs-5">
                         Esta política de privacidad revela las prácticas de privacidad de Area 862 Graphics
                     </p>
-                    <button type="button" class="btn btn-secondary btn-blue">Saber más</button>
+                    <button
+                        type="button"
+                        class="btn btn-secondary btn-blue btn-grad"
+                    >
+                        Saber más
+                    </button>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="py-5 footer text-light background-gradient-invert">
+    <footer class="py-5 footer text-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md">
@@ -125,11 +216,12 @@
                             width="150"
                             class="d-inline-block align-text-top img-zoom"
                         >
-                        <small class="d-block mb-3 mt-3 text-body-secondary">&copy; 2017–2024</small>
+                        <small class="d-block mb-3 mt-3 text-body-secondary">&copy; 2017 – 2024</small>
                     </div>
                 </div>
                 <div class="col-6 col-md text-center">
-                <h5>Features</h5>
+                <h5><b>Features</b></h5>
+                <hr>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Cool stuff</a></li>
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Random feature</a></li>
@@ -140,7 +232,8 @@
                 </ul>
                 </div>
                 <div class="col-6 col-md text-center">
-                <h5>Resources</h5>
+                <h5><b>Resources</b></h5>
+                <hr>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Resource name</a></li>
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Resource</a></li>
@@ -149,7 +242,8 @@
                 </ul>
                 </div>
                 <div class="col-6 col-md text-center">
-                <h5>Resources</h5>
+                <h5><b>Resources</b></h5>
+                <hr>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Business</a></li>
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Education</a></li>
@@ -158,7 +252,8 @@
                 </ul>
                 </div>
                 <div class="col-6 col-md text-center">
-                <h5>About</h5>
+                <h5><b>About</b></h5>
+                <hr>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Team</a></li>
                     <li><a class="link-secondary text-decoration-none text-light" href="#">Locations</a></li>
