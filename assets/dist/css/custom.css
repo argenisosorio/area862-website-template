@@ -98,3 +98,11 @@
 .text-justify {
     text-align: justify;
 }
+
+.background-gray {
+    background-color: #EEE;
+}
+
+.btn-blue {
+    background-color: #395da3 !important;
+}
