@@ -48,3 +48,16 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+
+.bg-light {
+    background-color: rgb(57, 93, 163) !important;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+    color: #FFFFFF !important;
+    background-color: #EB9916 !important;
+}
