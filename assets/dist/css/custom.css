@@ -110,6 +110,126 @@
     background-color: #395da3 !important;
 }
 
+.text-grad {
+    font-size: 72px;
+    background: -webkit-linear-gradient(left, #EB9916, #FFFFFF);
+    background: linear-gradient(to right, #EB9916, #FFFFFF); /* Propiedad estándar */
+    -webkit-background-clip: text;
+    background-clip: text; /* Propiedad estándar */
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    color: #EB9916;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #124485 0%, #1CB5E0  51%, #395da3  100%);
+    padding: 10px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:#FFFFFF;
+    border-radius: 10px;
+    border: ridge 1px transparent;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    border: ridge 1px transparent;
+}
+
+/****************/
+/* Custom Fonts */
+/****************/
+
+/* section-1 */
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../../fonts/OpenSans-Bold.ttf");
+}
+/* section-2 */
+@font-face {
+    font-family: "OpenSans-BoldItalic";
+    src: url("../../fonts/OpenSans-BoldItalic.ttf");
+}
+/* section-3 */
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url("../../fonts/OpenSans-ExtraBold.ttf");
+}
+/* section-4 */
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    src: url("../../fonts/OpenSans-ExtraBoldItalic.ttf");
+}
+/* section-5 */
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../../fonts/OpenSans-Italic.ttf");
+}
+/* section-6 */
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../../fonts/OpenSans-Light.ttf");
+}
+/* section-7 */
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url("../../fonts/OpenSans-LightItalic.ttf");
+}
+/* section-8 */
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../../fonts/OpenSans-Regular.ttf");
+}
+/* section-9 */
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../../fonts/OpenSans-SemiBold.ttf");
+}
+/* section-10 */
+@font-face {
+    font-family: "OpenSans-SemiBoldItalic";
+    src: url("../../fonts/OpenSans-SemiBoldItalic.ttf");
+}
+.section-1 {
+    font-family: "OpenSans-Bold", sans-serif;
+}
+.section-2 {
+    font-family: "OpenSans-BoldItalic", sans-serif;
+}
+.section-3 {
+    font-family: "OpenSans-ExtraBold", sans-serif;
+}
+.section-4 {
+    font-family: "OpenSans-ExtraBoldItalic", sans-serif;
+}
+.section-5 {
+    font-family: "OpenSans-Italic", sans-serif;
+}
+.section-6 {
+    font-family: "OpenSans-Light", sans-serif;
+}
+.section-7 {
+    font-family: "OpenSans-LightItalic", sans-serif;
+}
+.section-8 {
+    font-family: "OpenSans-Regular", sans-serif;
+}
+.section-9 {
+    font-family: "OpenSans-SemiBold", sans-serif;
+}
+.section-10 {
+    font-family: "OpenSans-SemiBoldItalic", sans-serif;
+}
+
+/*****************/
+/* Media queries */
+/*****************/
+
 /* Pantallas grandes (escritorio) */
 @media (min-width: 992px) {
     .col-2 {
@@ -147,35 +267,4 @@
         display: block;
         margin-top: 15px;
     }
-}
-
-.text-grad {
-    font-size: 72px;
-    background: -webkit-linear-gradient(left, #EB9916, #FFFFFF);
-    background: linear-gradient(to right, #EB9916, #FFFFFF); /* Propiedad estándar */
-    -webkit-background-clip: text;
-    background-clip: text; /* Propiedad estándar */
-    -webkit-text-fill-color: transparent;
-}
-
-hr {
-    color: #EB9916;
-}
-
-.btn-grad {
-    background-image: linear-gradient(to right, #124485 0%, #1CB5E0  51%, #395da3  100%);
-    padding: 10px 25px;
-    text-align: center;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color:#FFFFFF;
-    border-radius: 10px;
-    border: ridge 1px transparent;
-}
-
-.btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-    border: ridge 1px transparent;
 }
