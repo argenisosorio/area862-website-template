@@ -94,3 +94,7 @@
     -webkit-transform:scale(1.2);
     -o-transform:scale(1.2);
 }
+
+.text-justify {
+    text-align: justify;
+}
