@@ -285,7 +285,7 @@ hr {
         width: 90%;
         margin: 0 auto;
         display: block;
-        /*margin-top: 15px;*/
+        margin-top: 15px;
     }
     .mapswrapper iframe {
         width: 100%;
