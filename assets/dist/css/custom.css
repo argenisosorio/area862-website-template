@@ -267,4 +267,8 @@ hr {
         display: block;
         margin-top: 15px;
     }
+    .mapswrapper iframe {
+        width: 100%;
+        height: auto;
+    }
 }
