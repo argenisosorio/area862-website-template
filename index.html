@@ -377,5 +377,21 @@
     </footer>
     <!-- End Footer -->
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Script JavaScript para efecto de aparición
+        const sections = document.querySelectorAll('section');
+
+        const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            }
+        });
+        }, { threshold: 0.1 });
+
+        sections.forEach(section => {
+        observer.observe(section);
+        });
+    </script>
 </body>
 </html>
