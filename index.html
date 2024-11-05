@@ -266,26 +266,9 @@
                     </h1>
                     <br>
                     <p class="fs-6">
-                        Esta política de privacidad revela las prácticas de privacidad de Area 862 Graphics
+                        Esta política de privacidad revela las prácticas de
+                        privacidad de Area 862 Graphics
                     </p>
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <div class="form-check">
-                                <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    value=""
-                                    id="flexCheckDefault"
-                                    style="width: 2em; height: 2em;"
-                                >
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Al marcar esta casilla, acepto recibir
-                                    comunicación por SMS de Area 862 Graphics
-                                    según nuestra política de privacidad
-                                </label>
-                            </div>
-                        </div>
-                    </div>
                     <a href="politica_privacidad.html">
                         <button
                             type="button"
@@ -398,21 +381,6 @@
 
         sections.forEach(section => {
         observer.observe(section);
-        });
-    </script>
-    <script>
-        // Selecciona el checkbox por su ID
-        const checkbox = document.getElementById('flexCheckDefault');
-        // Función para guardar el estado en localStorage
-        checkbox.addEventListener('change', function() {
-            localStorage.setItem('flexCheckDefault', checkbox.checked);
-        });
-        // Función para cargar el estado desde localStorage al cargar la página
-        window.addEventListener('load', function() {
-            const storedValue = localStorage.getItem('flexCheckDefault');
-            if (storedValue === 'true') {
-                checkbox.checked = true;
-            }
         });
     </script>
 </body>
