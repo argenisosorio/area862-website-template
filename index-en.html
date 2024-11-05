@@ -286,6 +286,24 @@
                         This privacy policy discloses the privacy practices of
                         Area 862 Graphics
                     </p>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <div class="form-check">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    value=""
+                                    id="flexCheckDefault"
+                                    style="width: 2em; height: 2em;"
+                                >
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    By checking this box, I agree to receive
+                                    SMS communication from Area 862 Graphics
+                                    according to our privacy policy.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                     <a href="privacy_policy.html">
                         <button
                             type="button"
@@ -398,6 +416,21 @@
 
         sections.forEach(section => {
         observer.observe(section);
+        });
+    </script>
+    <script>
+        // Selecciona el checkbox por su ID
+        const checkbox = document.getElementById('flexCheckDefault');
+        // Función para guardar el estado en localStorage
+        checkbox.addEventListener('change', function() {
+            localStorage.setItem('flexCheckDefault', checkbox.checked);
+        });
+        // Función para cargar el estado desde localStorage al cargar la página
+        window.addEventListener('load', function() {
+            const storedValue = localStorage.getItem('flexCheckDefault');
+            if (storedValue === 'true') {
+                checkbox.checked = true;
+            }
         });
     </script>
 </body>

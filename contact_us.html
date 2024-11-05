@@ -120,6 +120,59 @@
                 </div>
                 <div class="col-2"></div>
             </div>
+            <hr>
+            <div class="row py-lg-5">
+                <h1 class="text-center" style="color: #395da3;">
+                    <b>Escríbenos</b>
+                </h1>
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <form
+                        action="https://formspree.io/f/xqakprln"
+                        method="POST"
+                    >
+                        <b>Email:</b>
+                        <input class="form-control" type="email" name="email">
+                        <br>
+                        <b>Name:</b>
+                        <input class="form-control" type="text" name="name">
+                        <br>
+                        <b>Phone:</b>
+                        <input class="form-control" type="text" name="phone">
+                        <br>
+                        <b>Message:</b>
+                        <textarea class="form-control" name="message"></textarea>
+                        <br>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckDefault"
+                                        style="width: 2em; height: 2em;"
+                                    >
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        By checking this box, I agree to receive
+                                        SMS communication from Area 862 Graphics
+                                        according to our privacy policy.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button
+                                type="submit"
+                                class="btn btn-secondary btn-blue btn-grad mt-3 "
+                            >
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2"></div>
+            </div>
         </section>
     </main>
 
@@ -222,6 +275,21 @@
 
         sections.forEach(section => {
         observer.observe(section);
+        });
+    </script>
+    <script>
+        // Selecciona el checkbox por su ID
+        const checkbox = document.getElementById('flexCheckDefault');
+        // Función para guardar el estado en localStorage
+        checkbox.addEventListener('change', function() {
+            localStorage.setItem('flexCheckDefault', checkbox.checked);
+        });
+        // Función para cargar el estado desde localStorage al cargar la página
+        window.addEventListener('load', function() {
+            const storedValue = localStorage.getItem('flexCheckDefault');
+            if (storedValue === 'true') {
+                checkbox.checked = true;
+            }
         });
     </script>
 </body>
