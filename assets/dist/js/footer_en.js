@@ -42,11 +42,20 @@ document.addEventListener("DOMContentLoaded", function () {
                         </ul>
                     </div>
                     <div class="col-6 col-md">
-                        <h5><b>Support</b></h5>
+                        <h5><b>Contact Us</b></h5>
                         <hr>
                         <ul class="list-unstyled text-small">
                             <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                742 Creekstone Ct, Cedar Hill TX 75104
+                            </li>
+                            <br>
+                            <li>
                                 <i class="fa-solid fa-phone"></i> +1 214-709-7912
+                            </li>
+                            <br>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i> orders@area862graphics.net
                             </li>
                             <br>
                             <li>
